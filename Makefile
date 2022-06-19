@@ -1,4 +1,4 @@
-default: jvm
+default: categorizer.exe
 
-jvm:
+categorizer.exe:
 	gcc -mwindows src/main.c -o categorizer.exe
